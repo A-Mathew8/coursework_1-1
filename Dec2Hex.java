@@ -7,14 +7,8 @@ class Dec2Hex
 
     public static void main(String args[])
     {
-	Scanner userInput = new Scanner(System.in);
-	String args1 = userInput.nextLine();
-	if(args1.length()==0)
-	{
-		System.out.println("Input Blank! Enter Input");
-	}
-	else
-	{
+	
+
            if (args.length > 0) 
 	   {
             try 
@@ -31,10 +25,10 @@ class Dec2Hex
 	
     	char ch[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
          int rem, num;
-	;
+	Scanner userInput = new Scanner(System.in);
 	num = Arg1;
 	String hexadecimal=""; 
-	
+	num = userInput.nextInt();
 
 
         System.out.println("Converting the Decimal Value " + num + " to Hex...");
@@ -47,6 +41,6 @@ class Dec2Hex
 
         System.out.println("Hexadecimal representation is : " + hexadecimal);
        
-      }
+      
 	}
 }
