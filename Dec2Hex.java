@@ -28,9 +28,11 @@ class Dec2Hex
 	Scanner userInput = new Scanner(System.in);
 	num = Arg1;
 	String hexadecimal=""; 
-	num = userInput.nextInt();
+	
 
 
+        System.out.println("Converting the Decimal Value " + num + " to Hex...");
+        System.out.println("Converting the Decimal Value " + num + " to Hex...");
         System.out.println("Converting the Decimal Value " + num + " to Hex...");
         while(num != 0)
         {
